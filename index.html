@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Резюме Иванова Ивана Ивановича — Ведущий AI-специалист по мобильным продуктам">
+    <title>Иванов И.И. — AI Mobile Specialist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#hero" class="logo">И<span class="logo__accent">.</span>И</a>
+            <nav class="nav">
+                <a href="#about" class="nav__link">О себе</a>
+                <a href="#skills" class="nav__link">Навыки</a>
+                <a href="#experience" class="nav__link">Опыт</a>
+                <a href="#education" class="nav__link">Образование</a>
+                <a href="#contact" class="nav__link">Контакты</a>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+                <span class="theme-toggle__icon">☀</span>
+            </button>
+            <button class="burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <p class="hero__greeting">Здравствуйте, меня зовут</p>
+                <h1 class="hero__name">Иванов Иван Иванович</h1>
+                <h2 class="hero__title">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero__summary">
+                    Создаю AI-driven мобильные продукты на стыке UX и архитектуры LLM. 
+                    Специализируюсь на Conversational UI, fine-tuning моделей и on-device AI.
+                </p>
+                <div class="hero__actions">
+                    <a href="#contact" class="btn btn--primary">Связаться со мной</a>
+                    <a href="#experience" class="btn btn--ghost">Мой опыт</a>
+                </div>
+                <div class="hero__meta">
+                    <span class="meta-item">📍 Москва</span>
+                    <span class="meta-item">💼 Удалённо / Гибрид</span>
+                    <span class="meta-item">💰 от 300 000 ₽</span>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="avatar">
+                    <div class="avatar__ring"></div>
+                    <div class="avatar__inner">ИИ</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О себе -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section__title">Профессиональный профиль</h2>
+            <div class="about-grid">
+                <div class="about-card reveal">
+                    <div class="about-card__icon">🧠</div>
+                    <h3>AI-экспертиза</h3>
+                    <p>Магистратура по обучению и выравниванию LLM. Опыт RLHF, fine-tuning и разработки AI-агентов.</p>
+                </div>
+                <div class="about-card reveal">
+                    <div class="about-card__icon">📱</div>
+                    <h3>Mobile UX</h3>
+                    <p>Бакалавриат по интерфейсам мобильных приложений. 7+ лет в проектировании продуктов для iOS и Android.</p>
+                </div>
+                <div class="about-card reveal">
+                    <div class="about-card__icon">🚀</div>
+                    <h3>Product Mindset</h3>
+                    <p>Ориентация на бизнес-метрики: удержание, конверсия, LTV. Запуск 4-х мобильных продуктов с нуля.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section class="section section--alt" id="skills">
+        <div class="container">
+            <h2 class="section__title">Ключевые навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-group reveal">
+                    <h3 class="skill-group__title">AI & LLM</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item" data-level="95">
+                            <span>Prompt Engineering</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                        <li class="skill-item" data-level="90">
+                            <span>Fine-tuning & RLHF</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                        <li class="skill-item" data-level="92">
+                            <span>RAG Architecture</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                        <li class="skill-item" data-level="85">
+                            <span>On-device AI</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                        <li class="skill-item" data-level="88">
+                            <span>AI Agents</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group__title">Mobile UX/UI & Product</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item" data-level="96">
+                            <span>Conversational UI/UX</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                        <li class="skill-item" data-level="94">
+                            <span>Mobile Design Systems</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                        <li class="skill-item" data-level="90">
+                            <span>UX Research</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                        <li class="skill-item" data-level="88">
+                            <span>A/B Testing AI-фич</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                        <li class="skill-item" data-level="85">
+                            <span>Python / LangChain</span>
+                            <div class="skill-bar"><div class="skill-bar__fill"></div></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group__title">Инструменты</h3>
+                    <div class="tools-grid">
+                        <span class="tool-tag">Figma</span>
+                        <span class="tool-tag">Protopie</span>
+                        <span class="tool-tag">Python</span>
+                        <span class="tool-tag">LangChain</span>
+                        <span class="tool-tag">LlamaIndex</span>
+                        <span class="tool-tag">Hugging Face</span>
+                        <span class="tool-tag">Jira</span>
+                        <span class="tool-tag">Confluence</span>
+                        <span class="tool-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Опыт -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section__title">Опыт работы</h2>
+            <div class="timeline">
+                <article class="timeline__item reveal">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <div class="timeline__header">
+                            <div>
+                                <h3>Lead AI Mobile UX & Integration</h3>
+                                <p class="timeline__company">Крупный Финтех / AI-Интегратор · Москва</p>
+                            </div>
+                            <span class="timeline__date">Янв 2024 — н.в.</span>
+                        </div>
+                        <ul class="timeline__list">
+                            <li>Проектирование мультимодальных AI-ассистентов в приложении с аудиторией 5+ млн MAU.</li>
+                            <li>Оптимизация промптов и fine-tuning LLM для снижения latency в мобильном контексте.</li>
+                            <li>Разработка гайдлайнов по Conversational UI для команды дизайнеров и разработчиков.</li>
+                            <li>Внедрение RAG-системы: снижение нагрузки на 1-ю линию поддержки на <strong>35%</strong>.</li>
+                            <li>Проведение RLHF-сессий: сбор, фильтрация и разметка данных для alignment моделей.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline__item reveal">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <div class="timeline__header">
+                            <div>
+                                <h3>Senior Mobile UX/UI Designer</h3>
+                                <p class="timeline__company">IT-компания / Мобильная студия · Москва</p>
+                            </div>
+                            <span class="timeline__date">Авг 2019 — Дек 2023</span>
+                        </div>
+                        <ul class="timeline__list">
+                            <li>Разработка дизайн-систем и интерфейсов для iOS и Android приложений.</li>
+                            <li>Проведение UX-исследований, CJM-картирование, создание интерактивных прототипов.</li>
+                            <li>Успешный запуск <strong>4-х мобильных продуктов</strong> «с нуля» до стадии масштабирования.</li>
+                            <li>Менторство Junior/Middle дизайнеров, проведение дизайн-ревью.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Образование -->
+    <section class="section section--alt" id="education">
+        <div class="container">
+            <h2 class="section__title">Образование</h2>
+            <div class="education-grid">
+                <div class="edu-card reveal">
+                    <div class="edu-card__year">2024 — 2026</div>
+                    <h3>Университет управления ИИ</h3>
+                    <p class="edu-card__degree">Магистратура · «Репетитор LLM»</p>
+                    <p class="edu-card__desc">Фокус: обучение и выравнивание больших языковых моделей, работа с датасетами, RLHF, оценка качества генеративных моделей.</p>
+                </div>
+                <div class="edu-card reveal">
+                    <div class="edu-card__year">2014 — 2018</div>
+                    <h3>Институт разработки мобильных приложений (ИРМП)</h3>
+                    <p class="edu-card__degree">Бакалавриат · «Интерфейсы мобильных приложений»</p>
+                    <p class="edu-card__desc">Фокус: Mobile UX/UI, проектирование мобильных продуктов, основы frontend-разработки, пользовательские исследования.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section__title">Контакты</h2>
+            <div class="contact-grid">
+                <div class="contact-card reveal">
+                    <div class="contact-card__icon">📧</div>
+                    <div>
+                        <p class="contact-card__label">Email</p>
+                        <a href="mailto:ivanov.ii@example.com" class="contact-card__value" id="email">ivanov.ii@example.com</a>
+                    </div>
+                    <button class="copy-btn" data-copy="ivanov.ii@example.com" aria-label="Скопировать email">📋</button>
+                </div>
+                <div class="contact-card reveal">
+                    <div class="contact-card__icon">📞</div>
+                    <div>
+                        <p class="contact-card__label">Телефон</p>
+                        <a href="tel:+78684433888" class="contact-card__value" id="phone">+7 (868) 443-38-88</a>
+                    </div>
+                    <button class="copy-btn" data-copy="+78684433888" aria-label="Скопировать телефон">📋</button>
+                </div>
+                <div class="contact-card reveal">
+                    <div class="contact-card__icon">🌐</div>
+                    <div>
+                        <p class="contact-card__label">Локация</p>
+                        <span class="contact-card__value">Москва, Россия</span>
+                    </div>
+                </div>
+                <div class="contact-card reveal">
+                    <div class="contact-card__icon">💼</div>
+                    <div>
+                        <p class="contact-card__label">Формат работы</p>
+                        <span class="contact-card__value">Удалённо / Гибрид / Офис</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cta reveal">
+                <p>Готов обсудить задачи по интеграции AI в мобильные продукты и созданию уникальных пользовательских сценариев.</p>
+                <a href="mailto:ivanov.ii@example.com" class="btn btn--primary">Написать мне</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Иванов И.И. · Все права защищены</p>
+        </div>
+    </footer>
+
+    <!-- Уведомление о копировании -->
+    <div class="toast" id="toast">Скопировано в буфер обмена</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
